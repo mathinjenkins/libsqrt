@@ -8,6 +8,10 @@ The approximation is done using [Babylonian method](https://en.wikipedia.org/wik
 
 The first value in the series is obtained using [Rough estimation](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots).
 
+
+### Dependencies
+* [libexponent](https://github.com/mathinjenkins/libexponent)
+
 ### Build
 * `git clone git@github.com:mathinjenkins/libsqrt.git`
 * `cd libsqrt`
