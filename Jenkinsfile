@@ -16,7 +16,7 @@ pipeline {
         branch 'stirling'
       }
       steps {
-        echo 'Update stirling workspace and testing new features'
+        echo 'Update stirling workspace and testing new libsqrt features'
       }
     }
   }
