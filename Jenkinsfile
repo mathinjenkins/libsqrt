@@ -3,14 +3,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'mkdir -p build && cd build'
-        sh 'cmake ../'
-        sh 'make'
+        sh './jenkins/build.sh'
       }
     }
     stage('Test') {
       steps {
-        sh './build/test/sqrt_test'
+        sh './jenkins/test.sh'
       }
     }
     stage('Stirling Build') {
